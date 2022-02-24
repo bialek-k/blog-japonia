@@ -1,12 +1,12 @@
-import React from 'react'
-import '../css/Hero.css'
+import React from "react";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <div className='hero'>
-      <div className="image"></div>
-      <div className="container">
-        <div className="menu">
+    <section className={styles.hero}>
+      <div className={styles.image}></div>
+      <div className={styles.container}>
+        <div className={styles.menu}>
           <ul>
             <li>Miasta</li>
             <li>Świątynie</li>
@@ -16,13 +16,13 @@ const Hero = () => {
             <li></li>
           </ul>
         </div>
-        <div className="header">
+        <div className={styles.header}>
           <h1>Japonia</h1>
           <h2>kraj tysiąca wysp</h2>
         </div>
       </div>
-    </div>
-  )
-}
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;
