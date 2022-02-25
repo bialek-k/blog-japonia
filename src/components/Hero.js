@@ -6,7 +6,7 @@ const Hero = () => {
     <section className={styles.hero}>
       <div className={styles.image}></div>
       <div className={styles.container}>
-        <div className={styles.menu}>
+        <nav className={styles.menu}>
           <ul>
             <li>Miasta</li>
             <li>Świątynie</li>
@@ -15,7 +15,7 @@ const Hero = () => {
             <li>Kontakt</li>
             <li></li>
           </ul>
-        </div>
+        </nav>
         <div className={styles.header}>
           <h1>Japonia</h1>
           <h2>kraj tysiąca wysp</h2>
