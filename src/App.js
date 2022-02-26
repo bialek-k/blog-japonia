@@ -1,14 +1,20 @@
+import About from "./components/About";
+import Articles from "./components/Articles";
+import Favourite from "./components/Favourite";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import Regions from "./components/Regions";
 import Islands from "./components/Islands";
 
 function App() {
   return (
-    <>
+    <div>
       <Hero />
-      <Regions />
-      <Islands/>
-    </>
+      <Islands />
+      <Articles />
+      <Favourite />
+      <About />
+      <Footer />
+    </div>
   );
 }
 

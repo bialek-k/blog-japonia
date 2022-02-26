@@ -1,0 +1,10 @@
+.container {
+  height: 95px;
+  background-color: #ede3ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container p {
+  font-size: 12px;
+}
