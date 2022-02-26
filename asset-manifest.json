@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blog-japonia/static/css/main.3de0f197.css",
+    "main.js": "/blog-japonia/static/js/main.6dec0e50.js",
+    "static/media/Rectangle 14.png": "/blog-japonia/static/media/Rectangle 14.4acc7323e28b83232fe3.png",
+    "static/media/Kanto.png": "/blog-japonia/static/media/Kanto.93c85709b12aab9ef840.png",
+    "static/media/Aso.png": "/blog-japonia/static/media/Aso.568dff36265f64830cee.png",
+    "static/media/nikko.png": "/blog-japonia/static/media/nikko.8087e81c593658347846.png",
+    "static/media/Tokio.png": "/blog-japonia/static/media/Tokio.4b6fa78d606a0debb0c1.png",
+    "static/media/Gyoen.png": "/blog-japonia/static/media/Gyoen.1f6f11d065a5d1fae800.png",
+    "static/media/Gokoku.png": "/blog-japonia/static/media/Gokoku.42cc1beaa3d99e6b14b9.png",
+    "static/media/foto-o-mnie.png": "/blog-japonia/static/media/foto-o-mnie.a44c74cc9a5b40955af5.png",
+    "static/media/aboutBackground.png": "/blog-japonia/static/media/aboutBackground.129ba30496de1c1fe675.png",
+    "index.html": "/blog-japonia/index.html",
+    "main.3de0f197.css.map": "/blog-japonia/static/css/main.3de0f197.css.map",
+    "main.6dec0e50.js.map": "/blog-japonia/static/js/main.6dec0e50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3de0f197.css",
+    "static/js/main.6dec0e50.js"
+  ]
+}
