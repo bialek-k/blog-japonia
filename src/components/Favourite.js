@@ -1,9 +1,6 @@
 import React from "react";
 import styles from "./Favourite.module.css";
 
-import arrowLeft from "../assets/arrowLeft.png";
-import arrowRight from "../assets/arrowRight.png";
-
 import gokoku from "../assets/Gokoku.png";
 import gyoen from "../assets/Gyoen.png";
 import tokio from "../assets/Tokio.png";
@@ -13,7 +10,6 @@ const Favourite = () => {
     <div className={styles.container}>
       <h1>Moje top 10 w Japonii</h1>
       <div className={styles.items}>
-        <img className={styles.arrows} src={arrowLeft} />
         <div className={styles.favourite}>
           <img src={gokoku} />
           <p className={styles.hiroshima}>Hiroshima, Świątynia Gokoku</p>
