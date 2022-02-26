@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 120px 0px;
+  background-color: #FFF6FC80;
 }
 
 .description {
@@ -42,9 +43,17 @@
 }
 
 .articlePhoto {
-  background: blue;
+  /* background: blue; */
   width: 50%;
   height: 380px;
+  position: relative;
+}
+
+.articlePhoto img{
+  bottom: 0;
+  right: -120px;
+  position: absolute;
+  height: 80%;
 }
 
 .wrapper button {
