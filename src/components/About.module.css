@@ -10,9 +10,19 @@
   height: 600px;
 }
 .photo {
+  background-color: var(--color_red);
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  width: 301px;
+  height: 289px;
+}
+
+.photo img{
+  left: -20px;
+  position: absolute;
 }
 
 .description {
