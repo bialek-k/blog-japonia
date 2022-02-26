@@ -1,0 +1,55 @@
+.container {
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  background-color: #ebeaf2;
+}
+.container h1 {
+  font-size: 32px;
+  margin-bottom: 65px;
+  color: var(--color_red);
+  font-weight: 400;
+}
+
+.items img {
+  width: 324px;
+  height: 202px;
+  margin-bottom: 25px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+
+.favourite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hiroshima::before,
+.gyoen::before,
+.tokio::before {
+  position: relative;
+  top: 0px;
+  left: -30px;
+  font-size: 48px;
+  font-family: Kaushan Script;
+  color: #9a0c26;
+}
+.hiroshima::before {
+  content: "1";
+}
+.gyoen::before {
+  content: "2";
+}
+.tokio::before {
+  content: "3";
+}
