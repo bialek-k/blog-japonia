@@ -2,6 +2,8 @@ import styles from "./Articles.module.css";
 import nikko from "../assets/nikko.png";
 import kanto from "../assets/Kanto.png";
 import aso from "../assets/Aso.png";
+import { Link } from "react-router-dom";
+import Article from "./Article";
 
 const Articles = () => {
   return (
@@ -16,7 +18,7 @@ const Articles = () => {
               roku. Jednym z najbardziej wyjątkowych jest Festiwal Lampionow w
               mieście Akita.{" "}
             </p>
-            <span>czytaj dalej></span>
+            <span>czytaj dalej{">"}</span>
           </div>
           <div className={styles.articlePhoto}>
             <img src={nikko} />
@@ -31,7 +33,7 @@ const Articles = () => {
               roku. Jednym z najbardziej wyjątkowych jest Festiwal Lampionow w
               mieście Akita.
             </p>
-            <span>czytaj dalej></span>
+            <Link to="/Article">czytaj dalej{">"}</Link>
           </div>
           <div className={styles.articlePhoto}>
             <img src={aso} />
@@ -46,7 +48,7 @@ const Articles = () => {
               roku. Jednym z najbardziej wyjątkowych jest Festiwal Lampionow w
               mieście Akita.
             </p>
-            <span>czytaj dalej></span>
+            <span>czytaj dalej{">"}</span>
           </div>
           <div className={styles.articlePhoto}>
             <img src={kanto} />

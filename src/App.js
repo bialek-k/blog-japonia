@@ -1,19 +1,22 @@
-import About from "./components/About";
-import Articles from "./components/Articles";
-import Favourite from "./components/Favourite";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Islands from "./components/Islands";
+
+import Nav from "./components/Nav";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import Article from "./components/Article";
 
 function App() {
   return (
     <div>
-      <Hero />
-      <Islands />
-      <Articles />
-      <Favourite />
-      <About />
-      <Footer />
+      <BrowserRouter>
+        <Nav/>
+        <Routes>
+          <Route path="/blog-japonia" element={<HomePage/>}/>
+          <Route path="/Article" element={<Article/>}/>
+          
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }
