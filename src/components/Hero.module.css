@@ -5,8 +5,8 @@
   display: flex;
 }
 .image {
-  background: linear-gradient(to top, #9a0c2666, #9a0c2666),
-    url("../assets/Rectangle\ 14.png") no-repeat bottom;
+  background: linear-gradient(to top, #9A0C2633, #9A0C2633),
+    url("../assets/Rectangle\ 14\ new.png") no-repeat bottom;
   background-size: cover;
   width: 50%;
   height: 100%;

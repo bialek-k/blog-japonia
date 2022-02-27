@@ -1,10 +1,13 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import Logo from "./Logo";
 
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <div className={styles.image}></div>
+      <div className={styles.image}>
+        <Logo/>
+      </div>
       <div className={styles.container}>
         <nav className={styles.menu}>
           <ul>
