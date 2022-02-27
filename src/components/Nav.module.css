@@ -1,0 +1,29 @@
+@import url("../css/settings.css");
+
+.menu {
+  margin: 26px auto 0 auto;
+}
+
+.menu ul {
+  margin: 0 120px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-family: "Lora", serif;
+  color: var(--color_body_text);
+}
+
+.menu ul li:last-child {
+  background: url("../assets/search\ 1.png") no-repeat center;
+  width: 19px;
+}
+
+li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+li:hover{
+  color: var(--color_red);
+}

@@ -16,28 +16,7 @@
   width: 50%;
 }
 
-.menu {
-  margin: 26px auto 0 auto;
-}
 
-.menu ul {
-  margin: 0 120px;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  font-family: "Lora", serif;
-  color: var(--color_body_text);
-}
-
-.menu ul li:last-child {
-  background: url("../assets/search\ 1.png") no-repeat center;
-  width: 19px;
-}
-
-li {
-  margin: 0 10px;
-}
 
 .header {
   margin: 300px 0;
