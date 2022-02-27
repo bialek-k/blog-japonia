@@ -4,10 +4,12 @@ import Favourite from "./components/Favourite";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Islands from "./components/Islands";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div>
+      <Nav/>
       <Hero />
       <Islands />
       <Articles />
