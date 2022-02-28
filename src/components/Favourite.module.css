@@ -25,6 +25,21 @@
   justify-content: center;
   align-items: center;
   gap: 45px;
+  position: relative;
+}
+
+.items::before{
+  content: url('../assets/arrowLeft.png');
+  left: -70px;
+  top: 90px;
+  position: absolute;
+}
+
+.items::after{
+  content: url('../assets/arrowRight.png');
+  right: -70px;
+  top: 90px;
+  position: absolute;
 }
 
 .favourite {

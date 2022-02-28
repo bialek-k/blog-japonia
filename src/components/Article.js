@@ -1,8 +1,11 @@
 import React from 'react'
+import Article_header from './Article_header'
 
 const Article = () => {
   return (
-    <div>Article</div>
+    <div>
+      <Article_header/>
+    </div>
   )
 }
 

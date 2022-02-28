@@ -1,0 +1,52 @@
+@import url('../css/settings.css');
+
+.header{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  background: url('../assets/photo.png') no-repeat center;
+  background-size: cover;
+  height: 1024px;
+  position: relative;
+}
+
+h1{
+  font-size: 64px;
+  font-weight: 600;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0 0 217px 0;
+  position: relative;
+}
+
+h2::after{
+  position: absolute;
+  content: url('../assets/Arrow_Vector.png');
+  bottom: -100px;
+  right: 50%;
+}
+
+h1, h2, p{
+  color: #F0EFEF;
+  font-family: Lora;
+}
+
+.read_time{
+  position: absolute;
+  right: 87px;
+  bottom: 35px;
+}
+
+.read_time::before{
+  content: url('../assets/Readmark.png');
+  left: -30px;
+  position: absolute;
+}
+
+.read_time p{
+  color: white;
+}
