@@ -1,0 +1,98 @@
+@import url("../css/settings.css");
+
+.Article_content{
+  padding-top: 100px;
+}
+
+.Article_content .container{
+  max-width: 954px;
+  margin: 0 auto;
+}
+
+.ksiusiu{
+  width: 120px;
+  height: 120px;
+  background-color: var(--color_red);
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto 150px auto;
+}
+
+.ksiusiu p {
+  position: absolute;
+  bottom: -75px;
+  left: 50%;
+  transform: translate(-50%);
+  color: var(--color_body_text);
+  font-family: Kaushan Script;
+  font-size: 32px;
+}
+
+.ksiusiu::before {
+  content: url("../assets/japan\ \(1\)\ 1.png");
+  position: absolute;
+  left: 19px;
+  top: 16px;
+}
+
+.Article_content p{
+  color: var(--color_body_text);
+  line-height: 25px;
+}
+
+.Article_content p:nth-child(2){
+  margin: 100px 0;
+}
+
+.Article_content .img{
+  background: url('../assets/sekcja.png');
+  height: 559px;
+  margin: 80px 0;
+}
+
+.Article_content .quote_container{
+  background-color: #FFF6FC80;
+  padding: 50px 0;
+}
+
+.Article_content .quote{
+  font-family: Kaushan Script;
+  font-size: 32px;
+  line-height: 46.43px;
+  margin: 0 55px;
+  text-align: center;
+}
+
+.Article_content .quote span{
+  font-size: 24px;
+  font-family: Lora;
+  display: block;
+  margin-top: 40px;
+}
+
+.Article_content .wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+
+.img2{
+  background: url('../assets/photo\ \(1\).png')no-repeat center ;
+  height: 628px;
+  width: 40%;
+}
+
+.wrapper_in{
+  width: 40%;
+}
+
+.wrapper_in h2{
+  font-family: Kaushan Script;
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.wrapper_in p{
+  margin: 50px 0 0 0;
+}
