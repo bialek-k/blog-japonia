@@ -1,6 +1,6 @@
 @import url('../css/settings.css');
 
-.header{
+.article_header{
   display: flex;
   justify-content: end;
   align-items: center;
@@ -11,26 +11,26 @@
   position: relative;
 }
 
-h1{
+.article_header h1{
   font-size: 64px;
   font-weight: 600;
 }
 
-h2{
+.article_header h2{
   font-size: 40px;
   font-weight: 400;
   margin: 0 0 217px 0;
   position: relative;
 }
 
-h2::after{
+.article_header h2::after{
   position: absolute;
   content: url('../assets/Arrow_Vector.png');
   bottom: -100px;
   right: 50%;
 }
 
-h1, h2, p{
+.article_header h1, .article_header h2, .article_header p{
   color: #F0EFEF;
   font-family: Lora;
 }
