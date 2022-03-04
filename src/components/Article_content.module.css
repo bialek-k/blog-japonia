@@ -79,7 +79,7 @@
 .img2{
   background: url('../assets/photo\ \(1\).png')no-repeat center ;
   height: 628px;
-  width: 40%;
+  width: 50%;
 }
 
 .wrapper_in{
@@ -94,5 +94,5 @@
 }
 
 .wrapper_in p{
-  margin: 50px 0 0 0;
+  margin: 50px 0 0 0 !important
 }
