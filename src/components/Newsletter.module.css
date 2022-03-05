@@ -1,0 +1,51 @@
+
+
+.newsletter .container{
+  max-width: 954px;
+  margin: 0 auto;
+  padding: 87px 0;
+  background-color: #FFF6FC80;
+  padding: 87px 120px;
+}
+
+.newsletter p{
+  margin: 0 50px 57px 50px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color_red);
+}
+
+.newsletter form{
+  height: 45px;
+}
+
+.newsletter input{
+  height: 100%;
+  width: 80%;
+  border: #D8D8D8B2 1px solid;
+  background-color: #FAFAFA;
+}
+
+.newsletter input:focus{
+  outline: none;
+}
+
+.newsletter input::placeholder{
+  padding-left: 10px;
+  color: #919191;
+  font-family: Lora;
+}
+
+.newsletter button{
+  height: 100%;
+  width: 18%;
+  margin-left: 2%;
+  border-radius: none;
+  border: 1px solid var(--color_red);
+  background-color: #FFF6FC80;
+  color: var(--color_red);
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}

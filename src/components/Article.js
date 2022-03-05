@@ -6,6 +6,7 @@ import Other from './Other'
 import About from '../components/About'
 import Footer from '../components/Footer'
 import Comment from './Comment'
+import Newsletter from './Newsletter'
 
 const Article = () => {
   return (
@@ -15,6 +16,7 @@ const Article = () => {
       <Gallery/>
       <Other/>
       <Comment/>
+      <Newsletter/>
       <About />
       <Footer />
     </div>
