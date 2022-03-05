@@ -1,0 +1,99 @@
+@import url("../css/settings.css");
+
+.comment{
+  padding: 80px 0;
+}
+
+.comment .container{
+  max-width: 954px;
+  margin: 0 auto;
+}
+
+.comment .container > p{
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.comment textarea{
+  border: #D8D8D8B2 1px solid;
+  resize: none;
+  display: block;
+  width: 100%;
+  background-color: #FAFAFA;
+}
+
+.comment textarea:focus{
+  outline: none;
+}
+
+.comment textarea::placeholder{
+  padding: 24px;
+  font-size: 16px;
+  font-family: Lora;
+}
+
+.comment .post{
+  padding: 40px 0;
+}
+
+.comment .post:first-of-type{
+  border-bottom: 2px solid #C4C4C4;
+}
+
+.comment .nick{
+  font-family: Lora;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--color_body_text);
+}
+
+.comment .nick::after{
+  font-size: 16px;
+  color: #0000005E;
+  margin-left: 35px;
+}
+
+.comment .post:first-of-type .nick:after{
+  content: "12.07.2020";
+}
+
+.comment .post:last-of-type .nick:after{
+  content: "24.05.2020";
+}
+
+.comment .content{
+  font-size: 24px;
+  margin: 17px 0 25px 0;
+  color: var(--color_body_text);
+}
+
+.comment .reply{
+  display: flex;
+}
+
+.comment .reply p{
+  margin: 0 30px;
+  position: relative;
+}
+
+.comment .reply p:nth-child(1)::before{
+  content: url('../assets/like.png');
+  position: absolute;
+  top: -2px;
+  left: -24px;
+}
+
+.comment .reply p:nth-child(2)::before{
+  content: url('../assets/notlike.png');
+  position: absolute;
+  top: 1px;
+  left: -24px;
+}
+
+.comment .reply p:nth-child(3){
+  color: var(--color_body_text);
+  font-family: Lora;
+  font-weight: 700;
+}
