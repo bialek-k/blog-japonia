@@ -1,0 +1,72 @@
+@import url("../css/settings.css");
+
+.other{
+  background-color: #EBEAF299;
+  padding: 70px 0;
+}
+
+.other .container{
+  max-width: 954px;
+  margin: 0 auto;
+}
+
+.other h2{
+  margin: 0 0 60px 0;
+}
+
+.other .wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 43px;
+  position: relative;
+}
+
+.other .img{
+  height: 252px;
+  width: 324px;
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.other .img:nth-child(1){
+  background: url('../assets/other1.png') no-repeat;
+}
+.other .img:nth-child(2){
+  background: url('../assets/other2.png') no-repeat;
+}
+.other .img:nth-child(3){
+  background: url('../assets/other3.png') no-repeat;
+}
+
+.other .p_background{
+  background: #FFF6FCB2;
+  flex-grow: 1;
+  padding: 15px;
+  /* height: 49px; */
+}
+
+.other p{
+  font-family: Lora;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+.other .wrapper::before{
+  content: url('../assets/arrowLeft.png');
+  left: -70px;
+  top: 122px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.other .wrapper::after{
+  content: url('../assets/arrowRight.png');
+  right: -70px;
+  top: 122px;
+  position: absolute;
+  cursor: pointer;
+}
