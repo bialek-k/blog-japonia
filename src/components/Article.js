@@ -5,6 +5,7 @@ import Gallery from './Gallery'
 import Other from './Other'
 import About from '../components/About'
 import Footer from '../components/Footer'
+import Comment from './Comment'
 
 const Article = () => {
   return (
@@ -13,6 +14,7 @@ const Article = () => {
       <Article_content/>
       <Gallery/>
       <Other/>
+      <Comment/>
       <About />
       <Footer />
     </div>
