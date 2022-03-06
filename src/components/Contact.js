@@ -44,7 +44,7 @@ const Contact = () => {
           <label htmlFor="message" type="text">
             Email
           </label>
-          <input placeholder="wpisz swoją wiadomość" />
+          <input placeholder="Wpisz swoją wiadomość" />
           <div className={styles.checkBox}>
             <input type="checkbox" />
             <p>

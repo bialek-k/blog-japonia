@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './Nav.module.css'
 import Logo from './Logo.js'
+import { Link } from 'react-router-dom';
+
 
 const Nav = () => {
   return (
@@ -12,7 +14,7 @@ const Nav = () => {
           <li>Świątynie</li>
           <li>Kultura</li>
           <li>Natura</li>
-          <li>Kontakt</li>
+          <Link to='/Contact'>Kontakt</Link>
           <li></li>
         </ul>
       </nav>

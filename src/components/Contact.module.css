@@ -52,7 +52,7 @@
 .form label {
   font-family: lora;
   margin-bottom: 10px;
-  font-weight: bold;
+  font-weight: 400;
   color: var(--color_red);
 }
 .form input {
@@ -65,6 +65,14 @@
   color: #9191914d;
 }
 
+.form input::placeholder{
+  font-family: lora;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  color: #9191914D;
+}
+
 .icons {
   width: 100px;
   display: flex;
@@ -73,16 +81,32 @@
 
 .checkBox {
   display: flex;
+  gap: 12px;
   /* background-color: red; */
 }
+
+.checkBox p{
+  font-family: Lora;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  color: #664D5D;
+}
+
+.checkBox a{
+  color: #9A0C26;
+  cursor: pointer;
+}
+
 .form button {
   border: 1px solid #9a0c26;
   padding: 10px 30px;
-  width: 100px;
+  width: 106px;
   background-color: transparent;
   color: var(--color_red);
   font-size: 16px;
   font-family: lora;
   margin: 20px 0px;
   font-weight: bold;
+  
 }

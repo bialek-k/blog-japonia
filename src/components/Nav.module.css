@@ -35,6 +35,11 @@ li {
   cursor: pointer;
 }
 
-li:hover{
+a{
+  text-decoration: none;
+  color: var(--color_body_text);
+}
+
+li:hover, a:hover{
   color: var(--color_red);
 }
