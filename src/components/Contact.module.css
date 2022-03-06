@@ -5,10 +5,12 @@
 }
 
 .image {
-  background: url("../assets/romeo.png") no-repeat bottom;
+  /* background: url("../assets/romeo-arnault-wSyPlbJ4GXo-unsplash\ 1.png") no-repeat bottom; */
+  background: linear-gradient(to top, #9A0C2633, #9A0C2633),
+  url("../assets/romeo-arnault-wSyPlbJ4GXo-unsplash\ 1.png") no-repeat bottom;
   background-size: cover;
   /* background-color: red; */
-  width: 65%;
+  width: 75%;
   height: 100vh;
 }
 .description {
